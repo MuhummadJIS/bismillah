@@ -4,12 +4,16 @@
         public $name;
         public $email;
 
-        function __construct($value,$value1,$value2){
-            $this->greating=$value;
-            $this->name=$value1;
-            $this->name=$value2;
-        }
+        public function myText(){
+            echo "Muslim Greating".$this->greating."</br>"."My Name Is"
+            .$this->name."</br>"."My Email Is".$this->email;
+        } 
     }
+    $user=new user();
+    $user->greating="Assalamualikum";
+    $user->name="Muhummad JI Shohag";
+    $user->email="mdsohag200077@gmail.com";
+    $user->myText();
 
 
 
