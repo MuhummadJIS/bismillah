@@ -10,6 +10,8 @@
             $this->name=$value2;
         }
     }
+    $user=new user("Assalamualikum","Muhummad JIS","mdsoahg200077@gmail.com");
+    
 
 
 
